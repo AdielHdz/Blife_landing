@@ -1,0 +1,58 @@
+.nav_container {
+    
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Dongle", sans-serif;
+    font-size: 3rem;
+    letter-spacing: -2px;
+
+    
+}
+
+.links_container {
+   
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+    transition: all .2s;
+}
+
+
+.links:hover {
+    color: rgb(162, 0, 255);
+    transform: scale(120%);
+}
+
+.btn_sigIn {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 7rem;
+    padding: .75rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: .2s;
+    
+}
+
+.btn_sigIn:hover {
+
+    
+    
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.200);
+    transform: scale(105%);
+}  

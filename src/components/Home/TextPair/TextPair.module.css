@@ -1,0 +1,46 @@
+.iconTextPair__container {
+  
+    display: flex;
+    gap: .7rem;
+}
+
+
+.icon_container {
+    padding-top: .2rem;
+
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+.iconBlue {
+    font-size: 1.2rem;
+    color: var(--blue-background-color);
+}
+.textPair__container {
+  
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.textPair__h5 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.textPair__p {
+    margin: 0;
+    font-weight: 500;
+    font-size: .7rem;
+    color: var(--grayMedium-background-color);
+    font-family: "Inter", sans-serif;
+}

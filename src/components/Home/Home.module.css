@@ -1,0 +1,29 @@
+.main_container {
+    background-image:  
+    linear-gradient(to top right, rgb(0, 167, 145),rgb(0, 89, 95), rgb(162, 0, 152));
+
+
+    padding: 2rem;
+}
+
+.bgWhite_container {
+
+    height: 100%; 
+    border-radius: 1rem;
+    background-image: linear-gradient(rgba(180, 180, 180, 0.2), rgba(180, 180, 180, 0.2)), url("../../../public/3D_objects.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+@media (min-height: 800px) {
+    .main_container {
+        height: 100vh;
+    }
+}

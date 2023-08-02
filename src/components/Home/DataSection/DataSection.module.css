@@ -1,0 +1,80 @@
+.dataSection__containerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+.dataSection__container {
+    width: 80%;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.100);
+    background-color: white;
+    border-radius: 1rem;
+
+
+}
+
+.dataSection__header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 1rem;
+}
+
+.dataSection__pSlogan_container {
+    display: flex;
+    gap: 2rem;
+   
+
+    
+}
+
+
+
+.dataSection__icon_container {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dataSection__iconInput {
+    color: var(--blue-background-color);
+    font-size: 1.2rem;
+
+
+}
+
+.dataSection__iconStars_container {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--blue-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+}
+.dataSection__iconStars {
+    font-size: 1.2rem;
+    color: white;
+
+} 
+
+
+
+ 
+.dataSection__pSlogan {
+font-family: "Inter", sans-serif;
+font-weight: 500;
+color: var(--grayMedium-background-color);
+font-size: 1.1rem;
+margin: 0;
+}
+.dataSection__secondContainer {
+    padding: 1rem 3.5rem 2rem 2rem;
+    
+    display: flex;
+    justify-content: space-between;
+}
