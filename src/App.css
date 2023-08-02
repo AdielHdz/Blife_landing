@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Inter:wght@400;500;600;700;800;900&display=swap");
 
 :root {
-  
-    --blue-background-color: #3D5CFF; /* blue */
-    --grayMedium-background-color: #858585;
-
+  --blue-background-color: #3d5cff; /* blue */
+  --grayMedium-background-color: #858585;
 }
 
 a {
@@ -14,4 +12,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
 }
